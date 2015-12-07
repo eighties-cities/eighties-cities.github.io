@@ -29,10 +29,10 @@ div.background {
 }
 
 div.transbox {
-    margin: 5px;
+   // margin: 5px;
     background-color: #ffffff;
     border: 1px solid black;
-    opacity: 0.8;
+    opacity: 0.9;
     filter: alpha(opacity=80); /* For IE8 and earlier */
 }
 
@@ -44,6 +44,35 @@ div.transbox p {
 }
 
 
+
+/* line 190, ../_scss/styles.scss */
+body footer {
+  background: #eeeeee;
+  padding: 80px 20px;
+  text-align: center;
+}
+/* line 195, ../_scss/styles.scss */
+body footer .twitter-wrap {
+  margin-top: 10px;
+}
+/* line 198, ../_scss/styles.scss */
+body footer .twitter-wrap .gh-star {
+  margin-top: 10px;
+}
+/* line 201, ../_scss/styles.scss */
+body footer a, body footer a:hover {
+  border-bottom: 1px solid rgba(86, 87, 92, 0.6);
+  text-decoration: none;
+  color: #56575c;
+  -webkit-transition: all 0.25s ease;
+  -moz-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+/* line 206, ../_scss/styles.scss */
+body footer a:hover, body footer a:hover:hover {
+  border-bottom-color: white;
+}
 
 /*footer {
   margin: 0;
@@ -6894,6 +6923,6 @@ button.close {
 }
 
 .node.fixed {
-  fill: #f00;
+  fill: #2adccb;
 }
 

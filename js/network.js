@@ -32,9 +32,7 @@ d3.json("data/eighties.json", function(error, graph) {
   node = node.data(graph.nodes)
     .enter().append("image")
        .attr("class", "node")
-  //     .attr("xlink:href", "https://raw.githubusercontent.com/eighties-cities/eighties-cities.github.io/master/data/bullet.png")
-      .style("fill", "https://raw.githubusercontent.com/eighties-cities/eighties-cities.github.io/master/data/bullet.png")
-      .attr("r", 12)
+        .attr("r", 12)
       .on("dblclick", dblclick)
       .call(drag);
 });

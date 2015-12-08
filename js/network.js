@@ -30,8 +30,10 @@ d3.json("data/eighties.json", function(error, graph) {
       .attr("class", "link");
 
   node = node.data(graph.nodes)
-    .enter().append("circle")
-      .attr("class", "node")
+    .enter().append("image")
+       .attr("class", "node")
+       //.attr("xlink:href", "http://data.whicdn.com/images/15660926/large.jpg")
+ //     .style("fill", "http://data.whicdn.com/images/15660926/large.jpg")
       .attr("r", 12)
       .on("dblclick", dblclick)
       .call(drag);
